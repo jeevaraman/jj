@@ -2,13 +2,13 @@
 int main()
 {
     char c;
-    printf("Enter a character: ");
+    printf("Enter some values: ");
     scanf("%c",&c);
 
     if( (c>='a' && c<='z') || (c>='A' && c<='Z'))
         printf("%c is an alphabet.",c);
     else
-        printf("%c is nunber",c);
+        printf("%c is number",c);
 
     return 0;
 }
